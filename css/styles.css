@@ -1,0 +1,704 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	 overflow-x: hidden;
+}
+
+body{
+	background-image: url("../images/tech.jpg");
+	font-family: 'Inter', sans-serif;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	background-color: #1E3821;
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    height: 100px;
+    line-height: 60px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+	display: flex;
+	margin-left: 30px;
+}
+
+.logo i{
+	font-size: 48px;
+	color: #FF7F00;
+	padding-top: 18px;
+}
+
+.logo h3{
+	margin-top: 15px;
+	margin-left: 10px;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.points li a{
+	text-decoration: none;
+	color: white;
+}
+
+.list ol{
+	list-style: none;
+	display: flex;
+	margin-right: 15px;
+	color: white;
+}
+.list ol li{
+	margin-right: 15px;
+	margin-top: 20px;
+}
+
+.list ol li:nth-child(3){
+	margin-left: -13px;	
+}
+
+#key,label{
+	display: none;
+}
+
+.items{
+	list-style: none;
+	position: absolute;
+	display: none;
+	background: #FF7F00;
+}
+
+.items li a{
+	text-decoration: none;
+	padding-left: 30px;
+}
+
+.fa-angle-down{
+	padding-top: 18px;
+	font-size:24px;
+}
+
+.content{
+	padding-top: 100px;
+	height: 38em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+}
+
+.intro{
+    margin-left: 100px;
+    margin-top: 10em;
+}
+
+h1{
+	font-size: 40px;
+	 margin-right: 100px;
+	 padding-top: 30px;
+}
+
+.intro p{
+	line-height: 20px;
+	font-size: 20px;
+}
+.picha{
+	margin-right: 100px;
+	margin-top: 10em;
+}
+
+.picha img{
+	height: 20em;
+	width: 35em;
+}
+
+.picha .fa-play{
+	position: absolute;
+	right: 360px;
+	top: 420px;
+	color: white;
+}
+
+.picha .fa-clock-o{
+	position: absolute;
+	right: 140px;
+	top: 280px;
+	color: white;
+}
+
+.picha h4{
+	font-size: 24px;
+}
+
+.team {
+	text-align: center;
+	padding: 100px 0px;
+}
+
+.abouts{
+	padding: 20px 280px; 
+}
+h1,h2,h3,h4{
+	font-family: 'Amatic SC', cursive;
+	text-transform: capitalize;
+}
+
+.photos{
+	display: flex;
+	margin-bottom: 70px;
+}
+
+.join{
+	margin-bottom: 70px;
+}
+
+.join button{
+	cursor: pointer;
+	border: none;
+}
+
+span a{
+	text-decoration: none;
+	color: black;
+}
+
+span{
+	display: block;
+	background: #FF7F00;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+}
+
+.join span{
+	padding: 5px 10px;
+}
+
+.partA{
+	font-size: 15px;
+}
+
+.partB{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.photos img{
+	height: 20em;
+	width: 270px;
+}
+/*style contact section*/
+.contact,.joine{
+	text-align: center;
+	background-image: linear-gradient(to right, #1E3821,#FF7F00);
+	padding: 60px 200px;
+}
+
+.contact h2{
+	font-size: 30px;
+}
+
+.contact h2,.contact i{
+	color: white;
+}
+.name input,.otherContact input{
+	width: 280px;
+	height: 30px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+    outline: none;
+}
+
+textarea{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.contacts{
+	display: flex;
+    text-align: center
+}
+
+.location{
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+form .button{
+	width: 150px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    background: #1E3821;
+    color: white;
+}
+
+.location img{
+	border-radius: 50%;
+}
+
+.icons i{
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*styling about page*/
+.mission, .vision, .values{
+	display: flex;
+	padding: 20px 300px;
+}
+
+.mission{
+	padding-top: 100px;
+}
+
+.mission p, .vision p, .values p{
+	padding-left: 100px;
+}
+
+.subtopics{
+	display: flex;
+}
+.culture{
+	padding-top: 80px;
+}
+
+.culture .introduction{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.culture .introduction p{
+	padding-top: 15px;
+	font-size: 18px;
+}
+
+.subtopics{
+	padding: 0 130px;
+}
+
+.commit{
+	background: #FF7F00;
+	padding: 50px 30px;
+	
+}
+
+.commit ol li,.committment ol li{
+	padding-top: 20px;
+}
+
+.commit h2,.committment h2{
+	text-align: center;
+}
+
+.committment{
+	background: #1E3821;
+	padding: 50px 30px;
+}
+
+.commit ol,.committment ol{
+	list-style: none;
+}
+
+.value-icon,.support-icon{
+	padding: 50px 0px;
+	border: 1px solid black;
+	margin: 0 250px;
+	border-radius: 5px;
+}
+
+.pair-one,.pair-two,.value-one,.value-two,
+.value-three, .value-four,
+.support-one,.support-two,
+.support-three, .support-four{
+	display: flex;
+}
+
+.pair-one{
+	padding-left: 10px;
+}
+
+.value-one,.value-three,
+.support-one,.support-three{
+	padding-left: 30px;
+}
+
+.value-two,.value-four,
+.support-two,.support-four{
+    padding-left: 30px;   
+}
+
+.value-icon i,.support-icon i{
+	font-size: 48px;
+}
+
+.fa-star-o,.fa-wifi{
+	color:#FF7F00;
+}
+
+.fa-group,.fa-television{
+	color: #1E3821;	
+}
+
+.fa-handshake-o,.fa-money{
+	color: #1E3821;	
+}
+
+.fa-gear{
+	color:#FF7F00;	
+}
+
+.value-one i,.value-two i,.value-three i,
+.value-four i,.support-one i,.support-two i,.support-three i,
+.support-four i{
+	padding-right: 30px;
+	padding-top: 15px;
+}
+
+.pair-one{
+	padding-bottom: 30px;
+}
+
+.contributer h2{
+	text-align: center;
+	padding-top: 100px;
+}
+
+.contributers{
+	display: flex;
+	padding: 50px 150px;
+	text-align: center;
+}
+
+.chege{
+	padding-left: 50px;
+}
+
+.joine h4{
+	display: block;
+}
+
+#joine{
+	padding-bottom: 20px;
+}
+
+.github,.joine button{
+	display: block;
+	width: 570px;
+	height: 30px;
+	border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    margin-left: 188px;
+}
+
+.joine button{
+	width: 240px;
+}
+
+.support{
+	padding: 50px 0;
+}
+
+.support h2{
+	text-align: center;
+}
+footer{
+	color: white;
+	background-color: #1E3821;
+	text-align: center;
+	padding-top: 30px;
+}
+
+footer .icons i{
+	font-size: 24px;
+}
+
+/*small devices*/
+@media only screen and (max-width: 600px){
+/*header part*/
+.header{
+		height: 70px;
+	}
+
+.logo{
+	margin-left: 13px;
+}
+
+.logo i{
+	font-size: 24px;
+	padding-top: 22px;
+}
+
+.fa-bars{
+	color: white;
+	margin-right: 13px;
+	padding-top: 22px;
+}
+
+.logo h3{
+	display: none;	
+}
+
+ #key{
+	position: absolute;
+	visibility: hidden;
+	z-index: -1;
+}
+
+#key,label{
+	display: block;
+}
+/*.points li a{
+	display: block;
+}*/
+.points{
+	width: 100%;
+	position: fixed;
+	right: -120%;
+	height: 50vh;
+	transition: .9s;
+	color: black;
+	line-height: 50px;
+	text-transform: uppercase;
+	padding-top: 20px;
+	background: #FF7F00;
+}
+
+.list ol{
+	display: block;
+	text-align: center;
+}
+.list ol li{
+	margin-top: 0px;
+}
+
+
+.fa-angle-down{
+	padding-top: 8px;
+	}
+
+.list ol li:nth-child(3){
+	margin-top: -45px;	
+	margin-left: 80px;
+}
+/*.points li a{
+	display: block;
+}*/
+.hide{
+	position: absolute;
+	right: 30px;
+	top: 20px;
+}
+#key:checked~.points{
+	right: -4%;
+}
+
+
+/*"intro class" second part in the body*/
+.content{
+	display: block;	
+}
+
+.intro{
+    margin: 0px;
+    text-align: center;
+}
+
+.intro h1{
+	font-size: 20px; 
+	 padding-top: 0px;
+	 text-align: center;
+	 padding-left: 60px;
+}
+
+.intro p{
+	line-height: 20px;
+	font-size: 16px;
+}
+
+.picha img{
+	width: auto;
+	margin-top: -100px;
+}
+
+.picha .fa-play,.picha .fa-clock-o{
+	display: none;
+}
+
+/*team part*/
+.abouts{
+	padding: 130px 30px 30px; 
+}
+.photos{
+	display: block;
+}
+
+.join span{
+	padding: 5px 10px;
+}
+
+.partA{
+	font-size: 15px;
+}
+
+.partB{
+	font-size: 15px;
+}
+
+.photos img{
+	width: auto;
+}
+/*style contact section*/
+.contact,.joine{
+	padding: 30px 20px;
+}
+
+textarea{
+   width: 320px; 
+   height: 100px;
+}
+
+.team {
+	padding: 10px 0px;
+}
+.contacts{
+	display: block;   
+}
+
+footer{
+	display: block;
+	padding-top: 30px;
+}
+
+footer .icons i{
+	font-size: 16px;
+}
+
+/*about page*/
+.culture{
+	padding-top: 30px;
+}
+
+.culture .introduction h1{
+	text-align: center;
+	margin: auto;
+}
+
+.mission, .vision, .values{	
+	padding: 20px 10px;
+	display: block;
+	text-align: center;
+}
+
+.subtopics{
+	display: block;
+    padding: 0px;
+}
+
+.mission p, .vision p, .values p{
+	padding-left: 0px;
+}
+
+.culture .introduction p{
+	padding-top: 15px;	
+}
+
+.commit,.committment{
+	padding: 30px 5px;	
+}
+
+.commit ol li,.committment ol li{
+	padding-top: 10px;
+}
+
+.value-icon,.support-icon{
+	padding: 50px 0px;
+	border: none;
+	margin: 0 15px;
+}
+
+.value-icon i, .support-icon i{
+	font-size: 24px;
+}
+
+.pair-one,.pair-two,.value-one, .support-one,.value-two,
+.support-two,.value-three,.support-three,.value-four,
+.support-four{
+	display: block;
+}
+
+.pair-one{
+	padding-left: 0px;
+}
+
+.value-one,.value-three,.value-two,.value-four,
+.support-one,.support-three,.support-two,.support-four{
+	padding-left: 10px;
+}
+
+.pair-one{
+	padding-bottom: 15px;
+}
+
+.contributers{
+	display: block;
+	padding: 30px 30px;
+}
+
+.contributer h2{
+	padding: 0px;
+}
+
+.chege{
+	padding-left: 0px;
+	padding-top: 50px;
+}
+
+.joine{
+	text-align: center;
+	display: block;
+}
+
+.github{
+	width: 320px;
+}
+
+}
+
+@media only screen and (max-width: 900px) {
+	.content{
+		display: block;
+	}
+	.joine button, .github{
+    margin-left: 25px;
+	}
+}
+
+@media only screen and (max-width: 480px){
+
+.name input,.otherContact input{
+	width: 230px;
+}
+
+textarea{
+	width: 250px;
+}
+
+.location{
+	margin-left: -10px;
+}
+
+}
