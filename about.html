@@ -4,53 +4,43 @@
 	<title>Hunters Initiative</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Flavors&family=Henny+Penny&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Work+Sans:wght@700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/fe92acf20b.js" crossorigin="anonymous"></script>
 </head>
-<body>
-	<div class="header">
-		<div class="logo">
-			<i class='fa fa-paw'></i>
-			<h3>Hunters Initiative</h3>
+<body class="box-border m-0 p-0">
+	<div class="flex bg-green-900 justify-between px-5 h-20 text-white overflow-auto">
+		<div class="block md:flex lg:flex">
+			<i class='fa fa-paw fa-lg md:fa-3x text-yellow-600 mt-6 md:mt-7 ml-6 md:-ml-2'></i>
+			<h3 class="-mt-1 md:mt-5 -ml-2 md:ml-2  font-bold text-sm md:text-lg tracking-tighter">Hunter Initiative</h3>
 	    </div>
 
 	    <!-- <div class="menu"> -->
 		<div class="list">
-			<input type="checkbox" name="checkbox" id="key">
-			<label for="key" class="show">
-				<i class="fa fa-bars"></i>
-			</label>
+			<div class="md:hidden">
+				<input type="checkbox" name="checkbox" id="key" class="hidden">
+				<label for="key" class="show">
+					<i class="fa fa-bars pl-48 pt-8 "></i>
+				</label>
+		    </div>
 			
-			<ol class="points">
-				<li><a href="index.html">Home</a></li>
-				<li>About</li>
-				<li><i class="fa fa-angle-down" style="font-size:24px"></i>
-					<ul class="items">
-						<li class="first"><a href='#mission'>Our Mission</a></li>
-						<li><a href='#vision'>Our Vision</a></li>
-						<li><a href='#values'>Guiding Principles</a></li>
-						<li><a href='#contributer'>Key Contributors</a></li>
-					</ul>
+			<ol class="hidden md:flex capitalize md:mt-6 lg:flex">
+				<li class="ml-2 mt-1">Home</li>
+				<li class="ml-2 mt-1"><a href="about.html">About</a></li>
+				<li class="ml-2 mt-1">
+					<i class="fa fa-angle-down -ml-1" style="font-size:24px"></i>
+						<ul class="items hidden md:visible md:fixed md:right-56 text-black">
+							<li class="first"><a href='about.html#mission'>Our Mission</a></li>
+							<li><a href='about.html#vision'>Our Vision</a></li>
+							<li><a href='about.html#values'>Guiding Principles</a></li>
+							<li><a href='about.html#contributer'>Key Contributors</a></li>
+						</ul>
 				</li>
-				<li>
-					<a href="index.html#team">Team</a></li>
-				</li>
-				<li>
-					<a href="index.html#join">Membership</a>
-				</li>
-				<li>
-					<a href="index.html#contact">contact</a>
-				</li>
-				<li>
-					<a href="index.html#support">Support</a>
-				</li>
+				<li class="ml-2 mt-1"><a href="#team">Team</a></li></li>
+				<li class="ml-2 mt-1"><a href="#join">Membership</a></li>
+				<li class="ml-2 mt-1"><a href="#contact">contact</a></li>
+				<li class="ml-2 mt-1"><a href='about.html#support'>support</a></li>
 
-				<label for="key" class="hide">
+				<label for="key" class="hide hidden">
 					<i class="fa fa-close"></i>
 				</label>
 			</ol>
@@ -58,7 +48,7 @@
 	</div>
 
 
-	<div class="culture">
+	<!-- <div class="culture">
 		<div class="introduction">
 			<h1>Mission, Vision and Values</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -311,7 +301,7 @@
 			<i class="fa fa-google-plus"></i>
 			<i class='fa fa-instagram'></i>
 		</div>
-	</footer>
+	</footer> -->
 
 		
 

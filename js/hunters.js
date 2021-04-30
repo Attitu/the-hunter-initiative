@@ -8,3 +8,14 @@ arrow.addEventListener('click', function(){
 		items.style.display="block";
 	}
 })
+
+let bars = document.querySelector(".fa-bars");
+bars.addEventListener('click',function(){
+	let items = document.querySelector('.items')
+	if (items.style.display === "none") {
+		items.style.display = "block"
+	}
+	else{
+		items.style.display = "block"
+	}
+})

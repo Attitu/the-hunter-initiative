@@ -1,9 +1,4 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-
-html,body{
+/*html,body{
 	 overflow-x: hidden;
 }
 
@@ -11,77 +6,8 @@ body{
 	background-image: url("../images/tech.jpg");
 	font-family: 'Inter', sans-serif;
 }
-.header{
-	display: flex;
-	justify-content: space-between;
-	background-color: #1E3821;
-	font-family: 'Open Sans Condensed', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-    height: 100px;
-    line-height: 60px;
-    position: fixed;
-    width: 100%;
-}
 
-.logo{
-	display: flex;
-	margin-left: 30px;
-}
 
-.logo i{
-	font-size: 48px;
-	color: #FF7F00;
-	padding-top: 18px;
-}
-
-.logo h3{
-	margin-top: 15px;
-	margin-left: 10px;
-	color: white;
-	font-family: 'Open Sans Condensed', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.points li a{
-	text-decoration: none;
-	color: white;
-}
-
-.list ol{
-	list-style: none;
-	display: flex;
-	margin-right: 15px;
-	color: white;
-}
-.list ol li{
-	margin-right: 15px;
-	margin-top: 20px;
-}
-
-.list ol li:nth-child(3){
-	margin-left: -13px;	
-}
-
-#key,label{
-	display: none;
-}
-
-.items{
-	list-style: none;
-	position: absolute;
-	display: none;
-	background: #FF7F00;
-}
-
-.items li a{
-	text-decoration: none;
-	padding-left: 30px;
-}
-
-.fa-angle-down{
-	padding-top: 18px;
-	font-size:24px;
-}
 
 .content{
 	padding-top: 100px;
@@ -93,7 +19,8 @@ body{
 
 .intro{
     margin-left: 100px;
-    margin-top: 10em;
+    margin-top: 5em;
+    width: 50%;
 }
 
 h1{
@@ -108,7 +35,7 @@ h1{
 }
 .picha{
 	margin-right: 100px;
-	margin-top: 10em;
+	margin-top: 5em;
 }
 
 .picha img{
@@ -201,7 +128,7 @@ span{
 .contact h2{
 	font-size: 30px;
 }
-
+*/
 .contact h2,.contact i{
 	color: white;
 }
